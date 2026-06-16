@@ -269,3 +269,13 @@ justify-content: space-around;
 .border-solid{
     border: solid 2px rgb(64, 123, 255);
 }
+
+/*-----------------------
+    card temoignages 
+-------------------------*/
+.card-tem{
+    padding: 30px 30px ;
+    border: solid 2px #E29CC9;
+    background: linear-gradient(#E29CC9, #FFFFFF);
+    width: 30%;
+}
