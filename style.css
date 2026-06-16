@@ -13,6 +13,10 @@
     border-radius: 8px;
 }
 
+.change-a{
+    display: inline-block;
+}
+
 /* ----------------------------
             COLORS
 -------------------------------*/
@@ -22,8 +26,26 @@
 .clr-white{
     color: white;
 }
-.clr-bleu{
+.bg-bleu{
     background-color: rgb(64, 123, 255) ;
+}
+.clr-btn-fonction{
+    background-color: rgba(50, 109, 235, 0.2);
+}
+.clr-bleu{
+    color: rgb(64, 123, 255) ;
+}
+.clr-light-bleu{
+    color: #ADC6FF;
+}
+.clr-green{
+    color: #3B6631;
+}
+.clr-green-fonction{
+    color: #A8C8AF;
+}
+.bg-green{
+    background-color: #A8C8AF;
 }
 /*------------------------------
             TEXTE
@@ -51,6 +73,9 @@
 
 .br-10{
     border-radius: 10px;
+}
+.br-9999{
+    border-radius: 9999px;
 }
 
 /*------------------------------
@@ -141,6 +166,10 @@ margin-bottom: 50px;
     padding: 50px;
 }
 
+.pad-foncti{
+    padding: 3px 12px;
+}
+
 
 
 /*-----------------------------
@@ -169,7 +198,7 @@ margin-bottom: 50px;
     width: 30%;
 }
 
-.w-20{
+.w20{
     width: 20%;
 }
 /*--------------------------
@@ -190,6 +219,9 @@ margin-bottom: 50px;
 .gap50{
     gap: 50px;
 }
+.gap40{
+    gap: 40px;
+}
 .gap100{
     gap: 100px;
 }
@@ -198,6 +230,9 @@ margin-bottom: 50px;
 }
 .gap150{
     gap: 150px;
+}
+.gap16{
+    gap: 16px;
 }
 
 /*-----------------------

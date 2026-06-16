@@ -7,6 +7,16 @@
     <title>TREMPLIN Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
 </head>
 
 <body>
@@ -24,33 +34,40 @@
     <main>
         <!-- SECTION HERO AVEC UNE CAPE -->
         <section class="container1200">
+
             <!-- Div mère -->
+
             <div class="flex gap150">
                 <!-- 1er enfant -->
+
                 <div class="w30 mgt128">
-                    <h1>Un soutien quand vous en avez besoin</h1>
+                    <h1>Un soutien quand vous <span class="clr-bleu">en avez besoin </span></h1>
                     <p class="mgt30">Tremplin vous aide à trouver rapidement les aides, services et ressources dont vous avez besoin pour avancer sereinement au quotidien.</p>
-                    <div class="mgt30">
-                        <a href=""><img src="asset/Store download button.png" alt=""></a>
-                        <a href=""><img src="asset/Apple download button .png" alt=""></a>
+
+                    <div class="mgt30  flex gap16">
+                        <a href="" class="w40"><img src="asset/Store download button-android.png" alt="" class="w100"></a>
+                        <a href="" class="w40"><img src="asset/Store download button.png" alt="" class="w100"></a>
                     </div>
+
                 </div>
+
                 <!-- 2eme enfant  -->
                 <div class="w50">
                     <img src="asset/EcranHero.png" alt="" class="w100">
                 </div>
             </div>
         </section>
+
         <!-- SECTION HISTOIRE & GEOGRAPHIE -->
         <section class="container1200 mgt128">
             <div>
-                <h2 class="txt-center mgb50">Le saviez vous ?</h2>
+                <h2 class="txt-center mgb50">Le saviez <span class="clr-bleu">vous ?</span></h2>
                 <p>Nous avons créé Tremplin pour aider les personnes en situation de précarité à accéder plus facilement aux aides et aux services dont elles ont besoin. L'application rassemble en un seul endroit les informations essentielles concernant le logement, l'alimentation, les soins et l'emploi. Elle permet de simplifier les démarches et de gagner du temps. Notre objectif est de lutter contre l'exclusion sociale et de favoriser l'accès aux droits pour tous. Tremplin est un outil solidaire qui vise à redonner de l'espoir et à accompagner chacun vers un avenir plus stable.</p>
             </div>
 
             <div class="flex space-between mgt100">
                 <!-- 9,8 + paragraphe -->
-                <div class="pad-40 clr-bleu br-10">
+                <div class="pad-40 bg-bleu br-10">
                     <h3 class="clr-white mgb10">9,8 Million +</h3>
                     <p>Le nombre de personnes en <br>situation de précarité</p>
                 </div>
@@ -72,62 +89,128 @@
 
         <section class="container1200 mgt128">
             <!-- div matriarche -->
-            <h2 class="txt-center">Explorez les  fonctionnalités</h2>
-        <div class="mgt100 flex ">
-            <div>
-                <div class="w30 ">
-                    <h3>Toutes les opportunités au même endroit</h3>
-                    <a href="">Vue d'ensemble</a>
-                    <p>Accédez facilement aux aides auxquelles vous avez droit et découvrez
-                        des activités gratuites ou à petit budget près de chez vous.</p>
+            <h2 class="txt-center">Explorez les <span class="clr-bleu">fonctionnalités</span></h2>
+
+        <div class="flex space-between align-center">
+                
+                <div class="w30">
+
+                    <h3 class="mgb30">Toutes les opportunités au <span class="clr-bleu">même endroit</span></h3>
+                    <a href="" class="txt-none clr-dark pad-foncti br-9999 clr-btn-fonction">Vue d'ensemble</a>
+                    <p class="mgt30">Accédez facilement aux aides auxquelles vous avez droit et découvrez
+                        des activités gratuites ou à petit budget près de chez vous.</p> 
+
+                    <div class="mgt50 flex gap16">
+                        <a href="" class="w40">
+                            <img src="asset/BTN activités.png" alt="" class="w100">
+                        </a>
+                        <a href="" class="w40">
+                            <img src="asset/BTN aides.png" alt="" class="w100">
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a href="">Activités Accessibles</a>
-                    <a href="">Aidés Personnalisées</a>
+
+                <div class="w50">
+                    <img src="asset/Ecran fonctionnalites2.png" alt="" class="w100">
                 </div>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
         </div>
+
+
+        <!-- Fonctionnalités aides 
+
+        <div class="flex space-between align-center">
+                
+                <div class="w30">
+
+                    <h3 class="mgb30">Trouvez les aides adaptées à <span class="clr-bleu">votre situation</span></h3>
+                    <a href="" class="txt-none clr-dark pad-foncti br-9999 clr-btn-fonction">Aides</a>
+                    <p class="mgt30">Ne passez plus à côté d'un dispositif qui pourrait vous aider.</p> 
+
+                    <div class="mgt50 flex gap20">
+
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i> <p>Accès rapide aux organismes concernés</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i> <p>Démarches guidées</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i> <p>Accès rapide aux organismes concernés</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i> <p>Accès rapide aux organismes concernés</p></div>
+
+                    </div>
+                </div>
+
+                <div class="w60">
+                    <img src="asset/ecran aides.png" alt="" class="w100">
+                </div>
+        </div>
+        -->
+
+            <!-- Fonctionnalités activtés 
+
+            <div class="flex space-between align-center">
+                
+                <div class="w30">
+
+                    <h3 class="mgb30">Découvrez des activités <span class="clr-green">accessibles autour de vous</span></h3>
+                    <a href="" class="txt-none clr-dark pad-foncti br-9999 bg-green">Activités</a>
+                    <p class="mgt30">Sortir, apprendre et créer du lien sans se ruiner.</p> 
+
+                    <div class="mgt50 flex gap20">
+
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i> <p>Activités gratuites ou peu coûteuses</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i> <p>Événements locaux</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i> <p>Recherche par centres d'intérêt</p></div>
+                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i> <p>Opportunités mises à jour régulièrement</p></div>
+
+                    </div>
+                </div>
+
+                <div class="w60">
+                    <img src="asset/ecran activites.png" alt="" class="w100">
+                </div>
+        </div>
+        -->
         </section>
+
         <!-- SECTION PARTENAIRE ET CABRIOLE -->
-         <section>
-            <div>
-                <div>
-                    <img src="" alt="">
+         <section class="mgt128 ">
+
+            <h2 class="txt-center mgb50">Nos <span class="clr-bleu">partenaires</span></h2>
+
+            <div class="bg-bleu flex">
+                <div class="w30">
+                    <img src="asset/EtatFrançais.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w30">
+                    <img src="asset/franprix.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w30">
+                    <img src="asset/CroixRouge.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w30">
+                    <img src="asset/banquepostal.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w30">
+                    <img src="asset/RestoCoeur.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w30">
+                    <img src="asset/BanqueAlim.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
+                <div class="w20">
+                    <img src="asset/Emmaus.png" alt="" class="w50">
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+
             </div>
+
          </section>
+
         <!-- SECTION AVIS AU RATUS  -->
-        <section>
+        <section class="mgt128">
+            <h2 class="txt-center mgb50">Ils nous font <span class="clr-bleu">confiance</span></h2>
             <!-- div undo -->
             <div>
                 <!-- div mundo -->
                 <div>
-                    <h2></h2>
-                    <p></p>
+                    <h3>Rejoignez les</h3>
+                    <img src="" alt="">
+                    <h3>Utilisateurs</h3>
                 </div>
                 <!-- div mundo -->
                 <div>
@@ -137,6 +220,11 @@
                 </div>
             </div>
         </section>
+
+
+
+
+
         <!-- SECTION EQUIPE EST TOCA -->
         <section>
             <div>
