@@ -149,7 +149,9 @@ margin-bottom: 50px;
 .ml-30{
     margin-left: 30px;
 }
-
+.ml-100{
+    margin-left: 100px;
+}
 
 .pad-16{
     padding: 16px;
@@ -263,6 +265,9 @@ margin-bottom: 50px;
 justify-content: space-around;
 }
 
+.pos-rel{
+    position: relative;
+}
 /*-----------------------
         Border 
 -------------------------*/
@@ -278,4 +283,30 @@ justify-content: space-around;
     border: solid 2px #E29CC9;
     background: linear-gradient(#E29CC9, #FFFFFF);
     width: 30%;
+}
+
+.pos-rel{
+    position: relative;
+    width: 220px;
+}
+.img-card{
+    position: absolute;
+    top: -183px;
+    left: 56%;
+    transform: translateX(-50%);
+    width: 55%;
+}
+.img-sarah-jean{
+    position: absolute;
+    top: -160px;
+    left: 56%;
+    transform: translateX(-50%);
+    width: 55%;
+}
+.img-rais{
+    position: absolute;
+    top: -141px;
+    left: 56%;
+    transform: translateX(-50%);
+    width: 55%;
 }
