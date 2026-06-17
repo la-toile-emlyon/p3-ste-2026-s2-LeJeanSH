@@ -13,90 +13,202 @@
 
 <body>
     <!-- HEADER AVEC UN H COMME TONTON HAMID -->
-    <header class="flex space-between align-center pad-20 mgb50">
-        <a href="index.html" target="_blank"><img src="asset/LOGO.png" alt=""></a>
-        <nav class="flex gap20">
-            <a href="" class="txt-none clr-dark">Accueil</a>
+    <header class="flex just-center gap150 align-center fixed-header fixed-header">
+        <img src="asset/LOGO.png" alt="">
+        <nav class="flex gap20 poppins-medium">
+            <a href="index.html" target="_blank" class="txt-none clr-dark">Accueil</a>
             <a href="" class="txt-none clr-dark">Fonctionnalites</a>
             <a href="" class="txt-none clr-dark">Avis</a>
         </nav>
-        <a href="" class="btn-Doc txt-none clr-white">Documentation</a>
+        <a href="index2.html" target="_blank" class="btn-Doc txt-none clr-white mr10 poppins-medium">Documentation</a>
     </header>
     <!-- MANY MAIN ! -->
-    <main class="ml-30">
-        <nav class="flex column gap20 bold majuscule mgb128">
-            <a href="" class="txt-none clr-dark">Contexte</a>
-            <a href="" class="txt-none clr-dark">Problematique</a>
-            <a href="" class="txt-none clr-dark">Benchmark</a>
-            <a href="" class="txt-none clr-dark">Utilisateur</a>
-            <a href="" class="txt-none clr-dark">User</a>
-            <a href="" class="txt-none clr-dark">Solution</a>
-            <a href="" class="txt-none clr-dark">Test Utilisateur</a>
-            <a href="" class="txt-none clr-dark">Perspective d'Evolution</a>
-        </nav>
-        <h1 class="mgb50">DOCUMENTATION</h1>
-        <p class="bold flex just-center majuscule mgb-50">La lutte contre la précarité</p>
-        <!-- SECTION CONTEXTE -->
-        <section>
-            <h3>CONTEXTE</h3>
-            <h4>Diminuer la précarité des personnes qui nous entourent.
-            </h4>
-            <div>
-                <div>
-                    <img src="" alt="">
+    <main class="ml-30 flex">
+        <div class="w20">
+            <nav class="flex column gap20 bold majuscule mgb128 card-nav w80 sticky">
+                <a href="#contexte" class="txt-none clr-dark">1.Con<span class="clr-bleu">texte</span></a>
+                <a href="#problematique" class="txt-none clr-dark">2.Proble<span class="clr-bleu">matique</span></a>
+                <a href="#benchmark" class="txt-none clr-dark">3.Bench<span class="clr-bleu">mark</span></a>
+                <a href="#utilisateur" class="txt-none clr-dark">4.Utilisateur <span class="clr-bleu">Type</span></a>
+                <a href="#userflow" class="txt-none clr-dark">5.User <span class="clr-bleu">Flow</span></a>
+                <a href="#solution" class="txt-none clr-dark">6.Solu<span class="clr-bleu">tions</span></a>
+                <a href="#test" class="txt-none clr-dark">7.Test <span class="clr-bleu">Utilisateur</span></a>
+                <a href="#perspective" class="txt-none clr-dark">8.Perspective d'<span class="clr-bleu">Evolution</span></a>
+            </nav>
+        </div>
+
+        <div class="w80">
+            <!-- SECTION CONTEXTE -->
+            <section id="contexte" class="mgt128">
+                <h3 class="mgb30 texte-50">CON<span class="clr-bleu">TEXTE</span></h3>
+                <h4 class="flex just-center texte-30">Diminuer la précarité des personnes qui nous entourent.
+                </h4>
+                <div class="flex align-center space-evenly">
+                    <div class="w40">
+                        <img class="w100" src="asset/IllustrContext.png" alt="">
+                    </div>
+                    <div class="w40">
+                        <p class="texte-24">Tremplin a été imaginé le 1er juin dans les locaux de l’ISTP par Akram,
+                            Raïs,
+                            Jean et Sarah. Le
+                            but étant d’aider les personnes en situation de précarité.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION PROBLEMATIQUE -->
+            <section id="problematique" class="mgb128 ">
+                <h3 class="mgb30 texte-50">PROBLE<span class="clr-bleu">MATIQUE</span></h3>
+                <div class="flex align-center space-evenly">
+                    <p class="w40 texte-24">Comment accompagner Calice vers des activités locales et des événements
+                        communautaires afin
+                        d'améliorer
+                        le bien-être de sa famille ?</p>
+                    <img class="w40" src="asset/IllustrProblematique.png" alt="">
+                </div>
+            </section>
+
+            <!-- SECTION BENCHMARK -->
+            <section id="benchmark" class="mgb128 ">
+                <h3 class="mgb30 texte-50">BENCH<span class="clr-bleu">MARK</span></h3>
+                <p class="texte-24 bold mgb50">Voici les 3 concurrents majeurs de Tremplin que nous avons rencontré :
+                </p>
+                <div class="flex space-evenly">
+                    <div class="w30 flex column align-center">
+                        <img class="w100 h75 mgb20" src="asset/image 6.png" alt="">
+                        <p class="texte-24">C.A.F</p>
+                    </div>
+                    <div class="w30 flex column align-center">
+                        <img class="w100 h75 mgb20" src="asset/polemploi-removebg-preview 1.png" alt="">
+                        <p class="texte-24">Pôle Emploi</p>
+                    </div>
+                    <div class="w30 flex column align-center">
+                        <img class="w100 h75 mgb20" src="asset/impotsgouv-removebg-preview 1.png" alt="">
+                        <p class="texte-24">Impots.gouv</p>
+                    </div>
+                </div>
+                <ul>
+                    <li class="texte-24 pb-32">Accompagne les personnes en difficulté financière grâce à diverses aides
+                        sociales</li>
+                    <li class="texte-24 pb-32">Accompagnement vers l'insertion professionnelle</li>
+                    <li class="texte-24">Rôle administratif central et gestion des démarches essentielles</li>
+                </ul>
+            </section>
+
+            <!-- SECTION UTILISATEUR -->
+            <section id="utilisateur" class="mgb128">
+                <h2 class="mgb30 texte-50">UTILISATEUR <span class="clr-bleu">TYPE</span></h2>
+                <img class="w90" src="asset/PersonaV2.png" alt="">
+            </section>
+
+            <!-- SECTION USERFLOW -->
+            <section id="userflow" class="mgb128 ">
+                <h2 class="mgb30 texte-50">USER <span class="clr-bleu">FLOW</span></h2>
+                <img class="w90" src="asset/UserFlowV2.png" alt="">
+            </section>
+
+            <!-- SECTION SOLUTION -->
+            <section id="solution" class="mgb128 ">
+                <h2 class="mgb50 texte-50">SOLU<span class="clr-bleu">TIONS</span></h2>
+                <div class="mgb50">
+                    <h3 class="mgb30 texte-40">WIREFRAME <span class="clr-bleu">LOW-FI</span></h3>
+                    <p class="texte-24 mgb30">C’est une représentation schématique de la structure et des <br>
+                        fonctionnalités d’une
+                        application mobile ou d’un site web. Dessinées <br> sur papier ou de manière numérique, ces
+                        maquettes offrent un <br> degré d’interactivité variable, jouant un rôle essentiel dans la
+                        <br>conception d’interfaces.
+                    </p>
+                    <div>
+                        <img class="w90" src="asset/LowFi.png" alt="">
+                    </div>
+                </div>
+                <div class="mgb50">
+                    <h3 class="mgb50 texte-40">IDEATION <span class="clr-bleu">MID-FI</span></h3>
+                    <div>
+                        <p class="texte-24 mgb30">Pour arriver au résultat final de notre application, nous avons
+                            procédés
+                            <br> à un
+                            round-robin,ainsi qu'à un brain storming. Ce qui nous a permis de <br> mettre en commun
+                            toutes
+                            les idées auxquelles nous avons pensés,et <br> c'est de cette manière que nous nous sommes
+                            dirigés vers le résultat <br> final de notre application.
+                        </p>
+                    </div>
+                    <img class="w90" src="asset/MidFiV2.png" alt="">
                 </div>
                 <div>
-                    <p>Tremplin a été imaginé le 1er juin dans les locaux de l’ISTP par Akram, Raïs, Jean et Sarah. Le
-                        but étant d’aider les personnes en situation de précarité.</p>
+                    <h3 class="mgb50 texte-40">MOCK-UP <span class="clr-bleu">HIGH-FI</span></h3>
+                    <img class="w90" src="asset/HighFiV2.png" alt="">
                 </div>
-            </div>
-        </section>
-        <!-- SECTION PROBLEMATIQUE -->
-        <section>
-            <h3>PROBLEMATIQUE</h3>
-            <p>Comment accompagner Calice vers des activités locales et des événements communautaires afin d'améliorer
-                le bien-être de sa famille ? (et de favoriser sa sortie de la précarité ?)</p>
-        </section>
-        <!-- SECTION BENCHMARK -->
-        <section>
-            <h3>BENCHMARK</h3>
-            <p>Voici les 3 concurrents majeurs de Tremplin que nous avons rencontré.</p>
-            <div>
+            </section>
+            <!-- SECTION TEST UTILISATEUR -->
+            <section id="test" class="mgb128">
+                <h2 class="mgb50 texte-50">TESTS <span class="clr-bleu">UTILISATEURS</span></h2>
+                <p class="bold texte-30 mgb30">Retour sur les questions posées et modifications faites</p>
+                <p class="texte-24 mgb30">Suite aux avis des personnes que l'on a interrogé sur le déroulé et
+                    l'esthétique
+                    de notre <br>
+                    application, voici les modifications que nous avons apporté</p>
+                <p class="texte-24 mgb50">Avant / Après des tests utilisateurs :</p>
+                <div class="mgb100">
+                    <p class="texte-24 mgb50 bold flex just-center">Modification du bouton pour les details <span
+                            class="clr-bleu">colis</span> </p>
+                    <div class="flex space-evenly just-center txt-center">
+                        <div class="w40">
+                            <p class="mgb30 semibold txt-center">AVANT</p>
+                            <img src="asset/BoutonColisAvant.png" alt="">
+                        </div>
+                        <div class="w40">
+                            <p class="mgb30 clr-bleu semibold txt-center">APRES</p>
+                            <img src="asset/BoutonColisApres.png" alt="">
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <img src="asset/image 6.png" alt="">
-                    <p>C.A.F</p>
+                    <p class="texte-24 mgb50 bold flex just-center">Remaniement du design des cartes <span
+                            class="clr-bleu">aides</span> </p>
+                    <div class="flex space-evenly just-center align-center txt-center">
+                        <div class="w40">
+                            <p class="mgb30 semibold txt-center">AVANT</p>
+                            <img src="asset/CarteAvantAides.png" alt="">
+                        </div>
+                        <div class="w40">
+                            <p class="mgb30 clr-bleu semibold txt-center">APRES</p>
+                            <img src="asset/CarteApresAides.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <img src="asset/polemploi-removebg-preview 1.png" alt="">
-                    <p>Pole Emplois</p>
+                    <p class="texte-24 mgb50 bold flex just-center">Proposition de programmer un horaire pour le <span
+                            class="clr-bleu">trajet</span> </p>
+                    </p>
+                    <div class="flex space-evenly just-center align-center txt-center">
+                        <div class="w40">
+                            <p class="txt-center mgb30 semibold">AVANT</p>
+                            <img src="asset/DestinationAvant.png" alt="">
+                        </div>
+                        <div class="w40">
+                            <p class="mgb30 clr-bleu semibold txt-center">APRES</p>
+                            <img src="asset/DestinattionApres.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="asset/impotsgouv-removebg-preview 1.png" alt="">
-                    <p>Impot Gouv</p>
-                </div>
-            </div>
-            
-        </section>
-        <!-- SECTION UTILISATEUR -->
-        <section>
-
-        </section>
-        <!-- SECTION USER -->
-        <section>
-
-        </section>
-        <!-- SECTION SOLUTION -->
-        <section>
-
-        </section>
-        <!-- SECTION TEST UTILISATEUR -->
-        <section>
-
-        </section>
-        <!-- SECTION PERSPECTIVE D'EVOLUTION -->
-        <section>
-
-        </section>
+            </section>
+            <!-- SECTION PERSPECTIVE D'EVOLUTION -->
+            <section id="perspective" class="flex column mgb128 ">
+                <h2 class="texte-50 mgb50">PERSPECTIVES <span class="clr-bleu">D'EVOLUTION</span></h2>
+                <p class="texte-24 mgb50">Dans un futur certain et suivant la levée de fonds, nous aimerions y
+                    <br>ajouter quelques
+                    fonctionnalités
+                    supplémentaires, telles que :
+                </p>
+                <ul class="ml-20">
+                    <li class="texte-24 semibold">Ajout de nouvelles aides</li>
+                    <li class="texte-24 semibold">Développement des activités sociales</li>
+                    <li class="texte-24 semibold">Personnalisation des recommandations</li>
+                </ul>
+            </section>
+        </div>
     </main>
 </body>
 

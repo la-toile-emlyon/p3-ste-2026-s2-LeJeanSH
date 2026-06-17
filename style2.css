@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h1,h2,h3{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
 /*------------------------- 
             HEADER 
 ---------------------------*/
@@ -16,7 +25,26 @@
 .change-a{
     display: inline-block;
 }
+header nav a{
+    position: relative;
+    padding-bottom: 6px;
+}
 
+header nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #407BFF;
+    color: #407BFF;
+    transition: width 0.3s ease;
+}
+
+header nav a:hover::after{
+    width: 100%;
+}
 /* ----------------------------
             COLORS
 -------------------------------*/
@@ -47,6 +75,9 @@
 .bg-green{
     background-color: #A8C8AF;
 }
+.bg-beige{
+    background-color: antiquewhite;
+}
 /*------------------------------
             TEXTE
 --------------------------------*/
@@ -63,6 +94,10 @@
     font-weight: 800;
 }
 
+.semibold{
+    font-weight: 600;
+}
+
 .txt-center{
     text-align: center;
 }
@@ -76,6 +111,22 @@
 }
 .br-9999{
     border-radius: 9999px;
+}
+
+.texte-50{
+    font-size: 50px;
+}
+
+.texte-40{
+    font-size: 40px;
+}
+
+.texte-30{
+    font-size: 30px;
+}
+
+.texte-24{
+    font-size: 24px;
 }
 
 /*------------------------------
@@ -130,12 +181,20 @@
 margin-bottom: 128px;
 }
 
+.mgb100{
+    margin-bottom: 100px;
+}
+
 .mgb50{
 margin-bottom: 50px;
 }
 
 .mgb30{
     margin-bottom: 30px;
+}
+
+.mgb20{
+    margin-bottom: 20px;
 }
 
 .mgb15{
@@ -146,13 +205,19 @@ margin-bottom: 50px;
     margin-bottom: 10px;
 }
 
+.ml-20{
+    margin-left: 20px;
+}
+
 .ml-30{
     margin-left: 30px;
 }
 .ml-100{
     margin-left: 100px;
 }
-
+.mr10{
+    margin-right: 10px;
+}
 .pad-16{
     padding: 16px;
 }
@@ -172,7 +237,9 @@ margin-bottom: 50px;
     padding: 3px 12px;
 }
 
-
+.pb-32{
+    padding-bottom: 32px;
+}
 
 /*-----------------------------
         CLASSE DE TAILLE
@@ -189,6 +256,14 @@ margin-bottom: 50px;
     width: 60%;
 }
 
+.w90{
+    width: 90%;
+}
+
+.w80{
+    width: 80%;
+}
+
 .w48{
     width: 48%;
 }
@@ -203,6 +278,19 @@ margin-bottom: 50px;
 .w20{
     width: 20%;
 }
+
+.h100{
+    height: 100%;
+}
+
+.h75{
+    height: 75%;
+}
+
+.h50{
+    height: 50%;
+}
+
 /*--------------------------
             GAP
 ----------------------------*/
@@ -240,7 +328,20 @@ margin-bottom: 50px;
 /*-----------------------
         FLEX-BOX
 -------------------------*/
+.fixed-header{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 
+.sticky{
+    position: sticky;
+    top: 100px;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -265,6 +366,10 @@ margin-bottom: 50px;
 justify-content: space-around;
 }
 
+.space-evenly{
+    justify-content: space-evenly;
+}
+
 .pos-rel{
     position: relative;
 }
@@ -285,6 +390,16 @@ justify-content: space-around;
     width: 30%;
 }
 
+.card-nav{
+    padding: 30px 15px ;
+    border: solid 2px #407BFF;
+    background-color: #ADC6FF;
+    border-radius: 20px;
+}
+
+/*-----------------------
+    Section équipe 
+-------------------------*/
 .pos-rel{
     position: relative;
     width: 220px;
@@ -310,3 +425,4 @@ justify-content: space-around;
     transform: translateX(-50%);
     width: 55%;
 }
+

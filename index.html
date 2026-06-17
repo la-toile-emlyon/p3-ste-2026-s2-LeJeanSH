@@ -5,47 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TREMPLIN Landing Page</title>
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
     <script src="script.js" defer></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
-    />
+
+    
 </head>
 
 <body>
     <!-- HEADER AVEC UN H COMME TONTON HAMID -->
-    <header class="flex space-between align-center pad-20">
+    <header class="flex just-center gap150 align-center fixed-header">
         <img src="asset/LOGO.png" alt="">
-        <nav class="flex gap20">
+        <nav class="flex gap20 poppins-medium">
             <a href="" class="txt-none clr-dark">Accueil</a>
             <a href="" class="txt-none clr-dark">Fonctionnalites</a>
             <a href="" class="txt-none clr-dark">Avis</a>
         </nav>
-        <a href="index2.html" target="_blank" class="btn-Doc txt-none clr-white">Documentation</a>
+        <a href="index2.html" target="_blank" class="btn-Doc txt-none clr-white mr10 poppins-medium">Documentation</a>
     </header>
     <!-- MANY MAIN ! -->
     <main>
+
+
         <!-- SECTION HERO AVEC UNE CAPE -->
-        <section class="container1200">
+        <section class="bg-beige">
 
             <!-- Div mère -->
 
-            <div class="flex gap150">
+            <div class="flex gap150 container1200">
                 <!-- 1er enfant -->
 
                 <div class="w30 mgt128">
                     <h1>Un soutien quand vous <span class="clr-bleu">en avez besoin </span></h1>
-                    <p class="mgt30">Tremplin vous aide à trouver rapidement les aides, services et ressources dont vous avez besoin pour avancer sereinement au quotidien.</p>
+                    <p class="mgt30">Tremplin vous aide à trouver rapidement les aides, services et ressources dont vous
+                        avez besoin pour avancer sereinement au quotidien.</p>
 
                     <div class="mgt30  flex gap16">
-                        <a href="" class="w40"><img src="asset/Store download button-android.png" alt="" class="w100"></a>
+                        <a href="" class="w40"><img src="asset/Store download button-android.png" alt=""
+                                class="w100"></a>
                         <a href="" class="w40"><img src="asset/Store download button.png" alt="" class="w100"></a>
                     </div>
 
@@ -59,27 +65,36 @@
         </section>
 
         <!-- SECTION HISTOIRE & GEOGRAPHIE -->
-        <section class="container1200 mgt128">
+        <section class="container1200 mgt30">
             <div>
                 <h2 class="txt-center mgb50">Le saviez <span class="clr-bleu">vous ?</span></h2>
-                <p>Nous avons créé Tremplin pour aider les personnes en situation de précarité à accéder plus facilement aux aides et aux services dont elles ont besoin. L'application rassemble en un seul endroit les informations essentielles concernant le logement, l'alimentation, les soins et l'emploi. Elle permet de simplifier les démarches et de gagner du temps. Notre objectif est de lutter contre l'exclusion sociale et de favoriser l'accès aux droits pour tous. Tremplin est un outil solidaire qui vise à redonner de l'espoir et à accompagner chacun vers un avenir plus stable.</p>
+                <p>Nous avons créé Tremplin pour aider les personnes en situation de précarité à accéder plus facilement
+                    aux aides et aux services dont elles ont besoin. L'application rassemble en un seul endroit les
+                    informations essentielles concernant le logement, l'alimentation, les soins et l'emploi. Elle permet
+                    de simplifier les démarches et de gagner du temps. Notre objectif est de lutter contre l'exclusion
+                    sociale et de favoriser l'accès aux droits pour tous. Tremplin est un outil solidaire qui vise à
+                    redonner de l'espoir et à accompagner chacun vers un avenir plus stable.</p>
             </div>
 
             <div class="flex space-between mgt100">
                 <!-- 9,8 + paragraphe -->
                 <div class="pad-40 bg-bleu br-10">
-                    <h3 class="clr-white mgb10">9,8 Million +</h3>
+                    <h3 class="clr-white mgb10 h3-card-numb">9,8 Million +</h3>
                     <p>Le nombre de personnes en <br>situation de précarité</p>
                 </div>
                 <!-- 15% + paragraphe -->
                 <div class="pad-40 br-10 border-solid">
-                    <h3 class="mgb10">15%</h3>
+                    <h3 class="mgb10 h3-card-numb clr-bleu">15%</h3>
                     <p>Le pourcentage de personnes en <br>situation de précarité</p>
                 </div>
                 <!-- 1/7 + paragraphe -->
                 <div class="pad-40 br-10 border-solid">
-                    <h3 class="mgb10">1/7</h3>
+                    <h3 class="mgb10 h3-card-numb clr-bleu">1/7</h3>
                     <p>Le taux de personnes en <br>situation de précarité</p>
+
+                </div>
+                <div>
+                    <img src="asset/freepik--Character--inject-172.png" alt="" class=" illu-number">
                 </div>
             </div>
 
@@ -87,18 +102,18 @@
 
         <!-- SECTION FONCTIONNALITES -->
 
-        <section class="container1200 mgt128">
+        <section class="mgt128 bg-beige" id="sectionfonctionnalites">
             <!-- div matriarche -->
             <h2 class="txt-center">Explorez les <span class="clr-bleu">fonctionnalités</span></h2>
 
-        <div class="flex space-between align-center">
-                
+            <div class="flex space-between align-center container1200">
+
                 <div class="w30">
 
                     <h3 class="mgb30">Toutes les opportunités au <span class="clr-bleu">même endroit</span></h3>
                     <a href="" class="txt-none clr-dark pad-foncti br-9999 clr-btn-fonction">Vue d'ensemble</a>
                     <p class="mgt30">Accédez facilement aux aides auxquelles vous avez droit et découvrez
-                        des activités gratuites ou à petit budget près de chez vous.</p> 
+                        des activités gratuites ou à petit budget près de chez vous.</p>
 
                     <div class="mgt50 flex gap16">
                         <a href="" class="w40">
@@ -113,12 +128,12 @@
                 <div class="w50">
                     <img src="asset/Ecran fonctionnalites2.png" alt="" class="w100">
                 </div>
-        </div>
+            </div>
 
 
-        <!-- Fonctionnalités aides 
+            <!-- Fonctionnalités aides 
 
-        <div class="flex space-between align-center">
+        <div class="flex space-between align-center" id="sectionaides">
                 
                 <div class="w30">
 
@@ -144,7 +159,7 @@
 
             <!-- Fonctionnalités activtés 
 
-            <div class="flex space-between align-center">
+            <div class="flex space-between align-center" id="sectionactivites">
                 
                 <div class="w30">
 
@@ -167,118 +182,196 @@
                 </div>
         </div>
         -->
+            <div class="carousel-controls">
+                <button class="arrow" aria-label="Précédent">
+                    ←
+                </button>
+
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <button class="arrow" aria-label="Suivant">
+                    →
+                </button>
+            </div>
         </section>
 
         <!-- SECTION PARTENAIRE ET CABRIOLE -->
-         <section class="mgt128 ">
+        <section class="mgt50 ">
 
             <h2 class="txt-center mgb50">Nos <span class="clr-bleu">partenaires</span></h2>
 
-            <div class="bg-bleu flex">
-                <div class="w30">
-                    <img src="asset/EtatFrançais.png" alt="" class="w50">
-                </div>
-                <div class="w30">
-                    <img src="asset/franprix.png" alt="" class="w50">
-                </div>
-                <div class="w30">
-                    <img src="asset/CroixRouge.png" alt="" class="w50">
-                </div>
-                <div class="w30">
-                    <img src="asset/banquepostal.png" alt="" class="w50">
-                </div>
-                <div class="w30">
-                    <img src="asset/RestoCoeur.png" alt="" class="w50">
-                </div>
-                <div class="w30">
-                    <img src="asset/BanqueAlim.png" alt="" class="w50">
-                </div>
-                <div class="w20">
-                    <img src="asset/Emmaus.png" alt="" class="w50">
-                </div>
-
-            </div>
-
-         </section>
-
-        <!-- SECTION AVIS AU RATUS  -->
-        <section class="mgt128 container1200">
-            <h2 class="txt-center mgb50">Ils nous font <span class="clr-bleu">confiance</span></h2>
-            <!-- div undo -->
-            <div class="flex gap150">
-                <!-- div mundo -->
-                <div class="w30">
-                    <h3>Rejoignez les</h3>
-                    <img src="asset/nombre de utilisateurs.png" alt="" class="w100">
-                    <h3>Utilisateurs</h3>
-                </div>
-                <!-- div mundo -->
-                <div class="card-tem">
-                    <div class="mgb30"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
-                    <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à utiliser, bien organisée et propose de nombreuses aides et activités variées. En tant que personne en situation de difficulté, elle m'apporte un réel soutien au quotidien. Je la recommande fortement à toutes les personnes qui recherchent un accompagnement simple et efficace. "</p>
-                    <div class="flex align-center space-between mgt30">
-                        <img src="asset/Ellipse 25.png" alt="" class="w20">
-                        <h3>Calice</h3>
+            <!-- SECTION PARTENERS COMME UN PARC METRE -->
+            <section class="marquee">
+                <div class="bg-bleu flex pad-50">
+                    <div class="marquee-track">
+                        <img src="asset/franprix.png" alt="blabla" />
+                        <img src="asset/BanqueAlim.png" alt="blabla" />
+                        <img src="asset/CroixRouge.png" alt="blabla" />
+                        <img src="asset/Emmaus.png" alt="blabla" />
+                        <img src="asset/RestoCoeur.png" alt="blabla" />
+                        <img src="asset/franprix.png" alt="blabla" />
+                        <img src="asset/BanqueAlim.png" alt="blabla" />
+                        <img src="asset/CroixRouge.png" alt="blabla" />
+                        <img src="asset/Emmaus.png" alt="blabla" />
+                        <img src="asset/RestoCoeur.png" alt="blabla" />
+                        <img src="asset/EtatFrançais.png" alt="blabla" />
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
+            <h2 class="txt-center mgt50">Ils nous font <span class="clr-bleu">confiance</span></h2>
 
+            <!-- SECTION AVIS AU RATUS  -->
+            <section class="mgt50 bg-beige">
 
+                <!-- div undo -->
+                <div class="flex gap150 container1200">
+                    <!-- div mundo -->
+                    <div class="w30">
+                        <h3 class="mgb15">Rejoignez les</h3>
+                        <img src="asset/nombre de utilisateurs.png" alt="" class="w100">
+                        <h3 class="mgt15">Utilisateurs</h3>
+                    </div>
 
-        <!-- SECTION EQUIPE EST TOCA -->
-        <section class="mgt128">
+                    <!-- fleche .précedent -->
 
-            <h2 class="txt-center">Découvrez notre <span class="clr-bleu">équipe</span></h2>
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-tem">
+                                    <div class="mgb30 flex gap16 just-center icon-logo"><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i></div>
+                                    <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+                                        utiliser, bien organisée et propose de nombreuses aides et activités variées. En
+                                        tant que personne en situation de difficulté, elle m'apporte un réel soutien au
+                                        quotidien. Je la recommande fortement à toutes les personnes qui recherchent un
+                                        accompagnement simple et efficace. "</p>
+                                    <div class="flex align-center space-between mgt30">
+                                        <img src="asset/Ellipse 25.png" alt="" class="w20">
+                                        <h3 class="font-size-calice">Calice</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-tem">
+                                    <div class="mgb30 flex gap16 just-center icon-logo"><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i></div>
+                                    <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+                                        utiliser, bien organisée et propose de nombreuses aides et activités variées. En
+                                        tant que personne en situation de difficulté, elle m'apporte un réel soutien au
+                                        quotidien. Je la recommande fortement à toutes les personnes qui recherchent un
+                                        accompagnement simple et efficace. "</p>
+                                    <div class="flex align-center space-between mgt30">
+                                        <img src="asset/Ellipse 25.png" alt="" class="w20">
+                                        <h3 class="font-size-calice">Calice</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-tem">
+                                    <div class="mgb30 flex gap16 just-center icon-logo"><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                            class="ph-fill ph-star"></i></div>
+                                    <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+                                        utiliser, bien organisée et propose de nombreuses aides et activités variées. En
+                                        tant que personne en situation de difficulté, elle m'apporte un réel soutien au
+                                        quotidien. Je la recommande fortement à toutes les personnes qui recherchent un
+                                        accompagnement simple et efficace. "</p>
+                                    <div class="flex align-center space-between mgt30">
+                                        <img src="asset/Ellipse 25.png" alt="" class="w20">
+                                        <h3 class="font-size-calice">Calice</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- fleche .suivante -->
+
+            </section>
+
+            <!-- SECTION EQUIPE EST TOCA -->
+            <section class="mgt100">
+
+                <h2 class="txt-center">Découvrez notre <span class="clr-bleu">équipe</span></h2>
 
                 <div class="flex gap50 ml-100 mgt128">
 
-                        <div class="w30 pos-rel mgt128">
-                            <img src="asset/Akram.png" alt="" class="w30 img-card">
-                            <img src="asset/Card.png" alt="" class="w100">
-                        </div>
-                        <div class="w30 pos-rel mgt128">
-                            <img src="asset/Sarah.png" alt="" class="w30 img-sarah-jean">
-                            <img src="asset/Card-1.png" alt="" class="w100">
-                        </div>
-                        <div class="w30 pos-rel mgt128">
-                            <img src="asset/Raïs.png" alt="" class="w30 img-rais">
-                            <img src="asset/Card-2.png" alt="" class="w100">
-                        </div>
-                        <div class="w30 pos-rel mgt128">
-                            <img src="asset/Jean Rafiki.png" alt="" class="w30 img-sarah-jean">
-                            <img src="asset/Card-3.png" alt="" class="w100">
-                        </div>
+                    <div class="w30 pos-rel mgt128">
+                        <img src="asset/Akram.png" alt="" class="w30 img-card">
+                        <img src="asset/Card.png" alt="" class="w100">
+                    </div>
+                    <div class="w30 pos-rel mgt128">
+                        <img src="asset/Sarah.png" alt="" class="w30 img-sarah-jean">
+                        <img src="asset/Card-1.png" alt="" class="w100">
+                    </div>
+                    <div class="w30 pos-rel mgt128">
+                        <img src="asset/Raïs.png" alt="" class="w30 img-rais">
+                        <img src="asset/Card-2.png" alt="" class="w100">
+                    </div>
+                    <div class="w30 pos-rel mgt128">
+                        <img src="asset/Jean Rafiki.png" alt="" class="w30 img-sarah-jean">
+                        <img src="asset/Card-3.png" alt="" class="w100">
+                    </div>
 
                 </div>
-            
-        </section>
+
+            </section>
     </main>
+
+
     <!-- FOOTER DE TROUBLE DIGESTIFS ET DE L'ORDRE PUBLIC  -->
-    <footer>
+    <footer class="mgt128 bg-footer">
+
         <!-- div primordial -->
-<div>
-<img src="asset/LOGO.png" alt="">
-<div class="w30">
-    <img src="asset/Store download button-android.png" alt="" class="w30">
-    <img src="asset/Store download button.png" alt="" class="w30">
-</div>
-</div>
+        <div class="flex">
+            <div>
+                <img src="asset/LOGO.png" alt="" class="mgb15">
+                <div class="w50">
+                    <img src="asset/Store download button-android.png" alt="" class="w40">
+                    <img src="asset/Store download button.png" alt="" class="w40">
+                </div>
+            </div>
 
-<div>
-<div class="w30"><img src="asset/freepik--Character--inject-2.png" alt="" class="w30"></div>
+            <div class="flex">
 
-<h3 class="clr-bleu mgb30">Application</h3>
-<p>Informations</p>
-<p>Fonctionnalités</p>
-<p>Partenaires</p>
-<p>Avis</p>
-<p>L’équipe</p>
+                <div class="w60 flex just-center gap20">
 
+                    <img src="asset/freepik--Character--inject-2.png" alt="" class="w20">
 
-</footer>
+                    <div class="column">
+                        <h3 class="clr-bleu mgb30">Application</h3>
+                        <p>Informations</p>
+                        <p>Fonctionnalités</p>
+                        <p>Partenaires</p>
+                        <p>Avis</p>
+                        <p>L’équipe</p>
+                    </div>
+
+                </div>
+
+                <div class="ml-30">
+                    <h3 class="clr-bleu mgb30">Liens Utiles</h3>
+                    <p>Nous contacter</p>
+                    <p>Mentions légales</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
