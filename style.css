@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 /*------------------------- 
             typo 
 ---------------------------*/
@@ -7,6 +7,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+.etiquette{
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+
 }
 
 .poppins-semibold {
@@ -46,7 +51,7 @@ h3{
 }
 
 p{
-    font-family: "Lato", sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: 400;
     font-style: normal; 
 }
@@ -60,6 +65,7 @@ p{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*------------------------- 
@@ -142,7 +148,7 @@ header nav a:hover::after{
     background-color: #FCF8F5;
     padding: 50px;
 }
-
+.bleu-etiquette{color:#3B5899}
 /*------------------------------
             TEXTE
 --------------------------------*/
@@ -337,7 +343,9 @@ margin-bottom: 50px;
 .gap16{
     gap: 16px;
 }
-
+.gap650{
+    gap: 650px;
+}
 /*-----------------------
         FLEX-BOX
 -------------------------*/
@@ -458,20 +466,20 @@ justify-content: space-around;
 /*-----------------------
         AVIS
 -------------------------*/
-.fleche-avant{
+.fleche-avant, .fleche-arriere{
+    cursor: pointer;
     width: 30px;
-height: 30px;
-  
-  /* On dessine le haut et la droite du carré */
-  border-top: 3px solid rgb(25, 41, 225);
-  border-right: 3px solid rgb(30, 68, 233);
-  
-  /* On tourne le carré pour que le coin pointe vers la droite */
-  transform: rotate(45deg);
-  
-  /* Permet d'ajuster légèrement la position si nécessaire */
-  margin-left: 2px;
+    height: 30px;
+    font-weight: 600;
+    border-top: 3px solid rgb(25, 41, 225);
+    border-right: 3px solid rgb(30, 68, 233);
+    transform: rotate(45deg);
+    margin-left: 2px;
 }
+.fleche-arriere{
+     transform: rotate(-135deg);
+}
+
 
 
 
@@ -520,12 +528,21 @@ height: 30px;
 }
 
 
-
-
 .mySwiper{
-    width: 500px;
+    width: 500px; 
 }
 
+
+.nav-secondaire {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.nav-secondaire ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
 
 
 
