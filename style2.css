@@ -321,6 +321,15 @@ margin-bottom: 50px;
 .gap150{
     gap: 150px;
 }
+.gap250{
+    gap: 250px;
+}
+.gap350{
+    gap: 350px;
+}
+.gap650{
+    gap: 650px;
+}
 .gap16{
     gap: 16px;
 }

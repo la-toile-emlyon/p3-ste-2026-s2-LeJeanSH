@@ -123,7 +123,10 @@ header nav a:hover::after{
     color: rgb(64, 123, 255) ;
 }
 .clr-light-bleu{
-    color: #ADC6FF;
+    color: #D4E1FF;
+}
+.bg-clr-light-bleu{
+    background-color: #D4E1FF;
 }
 .clr-green{
     color: #3B6631;
@@ -290,6 +293,9 @@ margin-bottom: 50px;
 .w40{
     width: 40%;
 }
+.w45{
+    width: 45%;
+}
 
 .w30{
     width: 30%;
@@ -365,6 +371,9 @@ justify-content: space-around;
 .pos-rel{
     position: relative;
 }
+.pos-abs{
+    position: absolute;
+}
 /*-----------------------
         Border 
 -------------------------*/
@@ -399,7 +408,7 @@ justify-content: space-around;
         #FFFFFF 80%
     );
 
-    width: 45%;
+    width: 100%;
 }
 
 
@@ -446,6 +455,25 @@ justify-content: space-around;
     transform: translateX(-50%);
     width: 35%;
 }
+/*-----------------------
+        AVIS
+-------------------------*/
+.fleche-avant{
+    width: 30px;
+height: 30px;
+  
+  /* On dessine le haut et la droite du carré */
+  border-top: 3px solid rgb(25, 41, 225);
+  border-right: 3px solid rgb(30, 68, 233);
+  
+  /* On tourne le carré pour que le coin pointe vers la droite */
+  transform: rotate(45deg);
+  
+  /* Permet d'ajuster légèrement la position si nécessaire */
+  margin-left: 2px;
+}
+
+
 
 
 /*-----------------------
@@ -497,6 +525,7 @@ justify-content: space-around;
 .mySwiper{
     width: 500px;
 }
+
 
 
 
