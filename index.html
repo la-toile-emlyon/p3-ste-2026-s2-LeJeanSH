@@ -23,20 +23,26 @@
 
 <body>
     <!-- HEADER AVEC UN H COMME TONTON HAMID -->
-    <header class="flex just-center gap650 align-center fixed-header fixed-header">
-        <a href="index.html"><img src="asset/LOGO.png" alt=""></a>
-        <div class="align-center just-center flex gap50">
-            <nav class="flex gap20 poppins-medium ">
-                <a href="index.html" target="_blank" class="txt-none clr-dark">Accueil</a>
-            </nav>
-            <a href="index2.html" target="_blank"
-                class="btn-Doc txt-none clr-white mr10 poppins-medium">Documentation</a>
+    <header class="fixed-header">
+
+        <div class="container1200 flex gap350 align-center  ">
+
+            <a href="index.html"><img src="asset/LOGOPropre.png" alt="" class="w50"></a>
+            <div class="align-center just-center flex gap50">
+                <nav class="flex gap20 poppins-medium ">
+                    <a href="index.html" target="_blank" class="txt-none clr-dark mgt10 poppins-medium">Accueil</a>
+                </nav>
+                <a href="documentation.html" target="_blank"
+                    class="btn-Doc txt-none clr-white mr10 poppins-medium">Documentation</a>
+            </div>
+
         </div>
+
 
     </header>
     <!-- MANY MAIN ! -->
     <main>
-        <nav class="nav-secondaire">
+        <nav class="nav-secondaire mgt100 sticky txt-none">
             <ul>
                 <li><a href="">Mon profil</a></li>
                 <li><a href="">Paramètres</a></li>
@@ -53,9 +59,10 @@
                 <!-- 1er enfant -->
 
                 <div class="w30 mgt128">
-                    <h1>Un soutien quand vous <span class="clr-bleu">en avez besoin </span></h1>
-                    <p class="mgt30">Tremplin vous aide à trouver rapidement les aides, services et ressources dont vous
-                        avez besoin pour avancer sereinement au quotidien.</p>
+                    <h1 class="poppins-medium">Un soutien quand vous <span class="clr-bleu">en avez besoin </span></h1>
+                    <p class="mgt30 poppins-medium">Tremplin accompagne les personnes en situation de précarité en leur
+                        permettant de trouver rapidement les aides, services et ressources dont elles ont besoin pour
+                        avancer sereinement au quotidien.</p>
 
                     <div class="mgt30  flex gap16">
                         <a href="" class="w40"><img src="asset/Store download button-android.png" alt=""
@@ -75,24 +82,24 @@
         <!-- SECTION HISTOIRE & GEOGRAPHIE -->
         <section class="container1200 mgt30">
             <div>
-                <h2 class="txt-center mgb50">Le saviez <span class="clr-bleu">vous ?</span></h2>
+                <h2 class="txt-center mgb50 poppins-medium">Le saviez <span class="clr-bleu">vous ?</span></h2>
             </div>
 
             <div class="flex space-between mgt100">
                 <!-- 9,8 + paragraphe -->
                 <div class="pad-40 br-10 border-solid w30">
-                    <h3 class="mgb10 h3-card-numb clr-bleu">9,8 Million +</h3>
-                    <p>Le nombre de personnes en <br>situation de précarité</p>
+                    <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">9,8 Million +</h3>
+                    <p class="poppins-medium">Le nombre de personnes en <br>situation de précarité</p>
                 </div>
                 <!-- 15% + paragraphe -->
                 <div class="pad-40 br-10 border-solid w30">
-                    <h3 class="mgb10 h3-card-numb clr-bleu">15%</h3>
-                    <p>Le pourcentage de personnes en <br>situation de précarité</p>
+                    <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">15%</h3>
+                    <p class="poppins-medium">Le pourcentage de personnes <br>en situation de précarité</p>
                 </div>
                 <!-- 1/7 + paragraphe -->
-                <div class="pad-40 br-10 border-solid w30">
-                    <h3 class="mgb10 h3-card-numb clr-bleu">1/7</h3>
-                    <p>Le taux de personnes en <br>situation de précarité</p>
+                <div class="pad-40 br-10 border-solid w30 poppins-medium">
+                    <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">1/7</h3>
+                    <p class="poppins-medium">Le taux de personnes en <br>situation de précarité</p>
 
                 </div>
                 <div>
@@ -105,130 +112,161 @@
         <!-- SECTION FONCTIONNALITES -->
 
         <section class="mgt128 bg-beige" id="sectionfonctionnalites">
-                     <!--Section Aides-->
+            <!--Section Aides-->
+            <div class="container1200">
+                <h2 class="txt-center mgb50 pad-40">Nos <span class="clr-bleu">Fonctionnalités</span></h2>
 
-            <div class="flex space-between align-center" id="sectionaides">
-                <div class="w60">
-                    <img src="asset/ecran aides.png" alt="" class="w100">
-                </div>
+                <!-- div 1 -->
+                <div class="flex space-between align-center" id="sectionaides">
+                    <div class="w60">
+                        <img src="asset/ecran aides.png" alt="" class="w100">
+                    </div>
 
-                <div class="w30">
+                    <div class="w40">
 
-                    <h3 class="mgb30">Trouvez les aides adaptées à <span class="bleu-etiquette">votre situation</span>
-                    </h3>
-                    <p class="txt-none clr-dark pad-foncti br-9999 clr-btn-fonction etiquette  bleu-etiquette">Aides</p>
-                    <p class="mgt30">Ne passez plus à côté d'un dispositif qui pourrait vous aider.</p>
+                        <h3 class="mgb30 poppins-medium">Trouvez les aides adaptées à <span class="bleu-etiquette">votre
+                                situation</span>
+                        </h3>
+                        <p
+                            class="txt-none clr-dark pad-foncti br-9999 clr-btn-fonction etiquette  bleu-etiquette poppins-medium">
+                            Aides</p>
+                        <p class="mgt30 poppins-medium">Ne passez plus à côté d'un dispositif qui pourrait vous aider.
+                        </p>
 
-                    <div class="mgt50 flex gap20">
+                        <div class="mgt50 flex gap20">
 
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
-                            <p>Accès rapide aux organismes concernés</p>
+                            <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
+                                <p class="poppins-medium">Accès rapide aux organismes concernés</p>
+                            </div>
+                            <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
+                                <p class="poppins-medium">Démarches guidées</p>
+                            </div>
+                            <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
+                                <p class="poppins-medium">Accès rapide aux organismes concernés</p>
+                            </div>
+                            <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
+                                <p class="poppins-medium">Accès rapide aux organismes concernés</p>
+                            </div>
+
                         </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
-                            <p>Démarches guidées</p>
-                        </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
-                            <p>Accès rapide aux organismes concernés</p>
-                        </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-light-bleu"></i>
-                            <p>Accès rapide aux organismes concernés</p>
-                        </div>
-
                     </div>
                 </div>
-            </div>
-            <!--Section Activites-->
+                <!--Section Activites-->
 
-            </div>
-            <div class="flex space-between align-center" id="sectionactivites">
+                <!-- div 2 -->
+                <div class="flex space-between align-center" id="sectionactivites">
 
-                <div class="w30">
+                    <div class="w40">
 
-                    <h3 class="mgb30">Découvrez des activités <span class="clr-green">accessibles autour de vous</span>
-                    </h3>
-                    <a href="" class="txt-none clr-dark pad-foncti br-9999 bg-green etiquette  clr-green">Activités</a>
-                    <p class="mgt30">Sortir, apprendre et créer du lien sans se ruiner.</p>
+                        <h3 class="mgb30 poppins-medium">Découvrez des activités <span class="clr-green">accessibles
+                                autour
+                                de vous</span>
+                        </h3>
+                        <a href=""
+                            class="txt-none clr-dark pad-foncti br-9999 bg-green etiquette  clr-green">Activités</a>
+                        <p class="mgt30 poppins-medium">Sortir, apprendre et créer du lien sans se ruiner.</p>
 
-                    <div class="mgt50 flex gap20">
+                        <div class="mgt50 flex gap20">
 
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i>
-                            <p>Activités gratuites ou peu coûteuses</p>
+                            <div class="flex align-center gap20"><i
+                                    class="ph-fill ph-check-circle clr-green-fonction"></i>
+                                <p class="poppins-medium">Activités gratuites ou peu coûteuses</p>
+                            </div>
+                            <div class="flex align-center gap20"><i
+                                    class="ph-fill ph-check-circle clr-green-fonction"></i>
+                                <p class="poppins-medium">Événements locaux</p>
+                            </div>
+                            <div class="flex align-center gap20"><i
+                                    class="ph-fill ph-check-circle clr-green-fonction"></i>
+                                <p class="poppins-medium">Recherche par centres d'intérêt</p>
+                            </div>
+                            <div class="flex align-center gap20"><i
+                                    class="ph-fill ph-check-circle clr-green-fonction"></i>
+                                <p class="poppins-medium">Opportunités mises à jour régulièrement</p>
+                            </div>
+
                         </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i>
-                            <p>Événements locaux</p>
-                        </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i>
-                            <p>Recherche par centres d'intérêt</p>
-                        </div>
-                        <div class="flex align-center gap20"><i class="ph-fill ph-check-circle clr-green-fonction"></i>
-                            <p>Opportunités mises à jour régulièrement</p>
-                        </div>
+                    </div>
 
+                    <div class="w60">
+                        <img src="asset/ecran activites.png" alt="" class="w100">
                     </div>
                 </div>
 
-                <div class="w60">
-                    <img src="asset/ecran activites.png" alt="" class="w100">
-                </div>
             </div>
 
+
+
+            </div>
         </section>
 
-        <!-- SECTION PARTENAIRE ET CABRIOLE -->
-        <section class="mgt50 ">
+        <h2 class="txt-center mgb50 mgt50">Nos <span class="clr-bleu">partenaires</span></h2>
 
-            <h2 class="txt-center mgb50">Nos <span class="clr-bleu">partenaires</span></h2>
-
-            <!-- SECTION PARTENERS COMME UN PARC METRE -->
-            <section class="marquee">
-                <div class="bg-clr-light-bleu flex pad-50">
-                    <div class="marquee-track">
-                        <img src="asset/franprix.png" alt="blabla" />
-                        <img src="asset/BanqueAlim.png" alt="blabla" />
-                        <img src="asset/CroixRouge.png" alt="blabla" />
-                        <img src="asset/Emmaus.png" alt="blabla" />
-                        <img src="asset/RestoCoeur.png" alt="blabla" />
-                        <img src="asset/franprix.png" alt="blabla" />
-                        <img src="asset/BanqueAlim.png" alt="blabla" />
-                        <img src="asset/CroixRouge.png" alt="blabla" />
-                        <img src="asset/Emmaus.png" alt="blabla" />
-                        <img src="asset/RestoCoeur.png" alt="blabla" />
-                        <img src="asset/EtatFrançais.png" alt="blabla" />
-                    </div>
+        <!-- SECTION PARTENERS COMME LE FOURGONS -->
+        <section class="marquee">
+            <div class="partener-bg flex pad-50">
+                <div class="marquee-track">
+                    <img src="asset/franprix.png" alt="blabla" />
+                    <img src="asset/BanqueAlim.png" alt="blabla" />
+                    <img src="asset/CroixRouge.png" alt="blabla" />
+                    <img src="asset/Emmaus.png" alt="blabla" />
+                    <img src="asset/RestoCoeur.png" alt="blabla" />
+                    <img src="asset/franprix.png" alt="blabla" />
+                    <img src="asset/BanqueAlim.png" alt="blabla" />
+                    <img src="asset/CroixRouge.png" alt="blabla" />
+                    <img src="asset/Emmaus.png" alt="blabla" />
+                    <img src="asset/RestoCoeur.png" alt="blabla" />
+                    <img src="asset/EtatFrançais.png" alt="blabla" />
                 </div>
-            </section>
+            </div>
+        </section>
 
+        <!-- SECTION AVIS AU RATUS  -->
+        <section class="bg-beige ">
 
-            <h2 class="txt-center mgt50">Ils nous font <span class="clr-bleu">confiance</span></h2>
+            <div class="container1200">
 
-            <!-- SECTION AVIS AU RATUS  -->
-            <section class="mgt50 bg-beige flex">
-
+                <h2 class="txt-center mgb50 pad-40">Ils nous font <span class="clr-bleu">confiance</span></h2>
                 <!-- div undo -->
-                <div class="gap150 w50">
+                <div class="flex space-between">
                     <!-- div mundo -->
                     <div class="w30">
-                        <h3 class="mgb15">Rejoignez les</h3>
+                        <h3 class="mgb15">Rejoignez les utilisateurs</h3>
                         <img src="asset/nombre de utilisateurs.png" alt="" class="w100">
-                        <h3 class="mgt15">Utilisateurs</h3>
                     </div>
 
 
-                    <div class="flex align-center w50">
+                    <div class="flex align-center w60">
                         <!-- fleche .précedent -->
                         <div class="fleche-arriere"></div>
                         <!-- Swiper -->
 
-                        <div class="swiper mySwiper w50">
+                        <div class="swiper mySwiper">
 
-                            <div class="swiper-wrapper w50">
+                            <div class="swiper-wrapper">
+
+                                <!-- commentaire 1 -->
                                 <div class="swiper-slide">
                                     <div class="card-tem">
-                                        <div class="mgb30 flex gap16 just-center icon-logo"><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i></div>
-                                        <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+
+                                        <div class=" flex gap20 align-center mgb20">
+
+                                            <img src="asset/Ellipse 25.png" alt="" class="img-avatar">
+
+                                            <div class="w-60 ">
+                                                <p class="font-size-calice">Calice</p>
+                                                <div class="flex icon-logo"><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <p class="mgt10">“ J'utilise cette application et j'en suis très satisfait. Elle
+                                            est facile à
                                             utiliser, bien organisée et propose de nombreuses aides et activités
                                             variées. En
                                             tant que personne en situation de difficulté, elle m'apporte un réel soutien
@@ -236,20 +274,63 @@
                                             quotidien. Je la recommande fortement à toutes les personnes qui recherchent
                                             un
                                             accompagnement simple et efficace. "</p>
-                                        <div class="flex align-center space-between mgt30">
-                                            <img src="asset/Ellipse 25.png" alt="" class="w20">
-                                            <h3 class="font-size-calice">Calice</h3>
-                                        </div>
+
                                     </div>
                                 </div>
-                                <!-- 2 eme commentaire  -->
+
+                                <!-- commentaire 2 -->
                                 <div class="swiper-slide">
                                     <div class="card-tem">
-                                        <div class="mgb30 flex gap16 just-center icon-logo"><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i></div>
-                                        <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+
+                                        <div class=" flex gap20 align-center mgb20">
+
+                                            <img src="asset/Falcon.png" alt="" class="img-avatar">
+
+                                            <div class="w-60 ">
+                                                <p class="font-size-calice">Falcon</p>
+                                                <div class="flex icon-logo"><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <p class="mgt10">“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
+                                            utiliser, bien organisée et propose de nombreuses aides et activités
+                                            variées. En
+                                            tant que personne en situation de difficulté, elle m'apporte un réel soutien
+                                            au
+                                            quotidien. Je la recommande fortement à toutes les personnes qui recherchent
+                                            un
+                                            accompagnement simple et efficace.  "</p>
+
+                                    </div>
+                                </div>
+
+                                <!-- commentaire 3 -->
+                                <div class="swiper-slide">
+                                    <div class="card-tem">
+
+                                        <div class=" flex gap20 align-center mgb20">
+
+                                            <img src="asset/Sydney.png" alt="" class="img-avatar">
+
+                                            <div class="w-60 ">
+                                                <p class="font-size-calice">Sydney</p>
+                                                <div class="flex icon-logo"><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                                        class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <p class="mgt10">“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
                                             utiliser, bien organisée et propose de nombreuses aides et activités
                                             variées. En
                                             tant que personne en situation de difficulté, elle m'apporte un réel soutien
@@ -257,33 +338,11 @@
                                             quotidien. Je la recommande fortement à toutes les personnes qui recherchent
                                             un
                                             accompagnement simple et efficace. "</p>
-                                        <div class="flex align-center space-between mgt30">
-                                            <img src="asset/Ellipse 25.png" alt="" class="w20">
-                                            <h3 class="font-size-calice">Calice</h3>
-                                        </div>
+
                                     </div>
                                 </div>
-                                <!-- 3 eme commentaire  -->
-                                <div class="swiper-slide">
-                                    <div class="card-tem">
-                                        <div class="mgb30 flex gap16 just-center icon-logo"><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
-                                                class="ph-fill ph-star"></i></div>
-                                        <p>“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
-                                            utiliser, bien organisée et propose de nombreuses aides et activités
-                                            variées. En
-                                            tant que personne en situation de difficulté, elle m'apporte un réel soutien
-                                            au
-                                            quotidien. Je la recommande fortement à toutes les personnes qui recherchent
-                                            un
-                                            accompagnement simple et efficace. "</p>
-                                        <div class="flex align-center space-between mgt30">
-                                            <img src="asset/Ellipse 25.png" alt="" class="w20">
-                                            <h3 class="font-size-calice">Calice</h3>
-                                        </div>
-                                    </div>
-                                </div>
+
+
 
 
                             </div>
@@ -293,56 +352,30 @@
                         </div>
 
                         <!-- fleche .suivante -->
-                        <div class="fleche-avant pos-rel"></div>
+                        <div class="fleche-avant"></div>
 
                     </div>
-
-            </section>
-
-            <!-- SECTION EQUIPE EST TOCA -->
-            <section class="mgt100">
-
-                <h2 class="txt-center">Découvrez notre <span class="clr-bleu">équipe</span></h2>
-
-                <div class="flex gap50 ml-100 mgt128">
-
-                    <div class="w30 pos-rel mgt128">
-                        <img src="asset/Akram.png" alt="" class="w30 img-card">
-                        <img src="asset/Card.png" alt="" class="w100">
-                    </div>
-                    <div class="w30 pos-rel mgt128">
-                        <img src="asset/Sarah.png" alt="" class="w30 img-sarah-jean">
-                        <img src="asset/Card-1.png" alt="" class="w100">
-                    </div>
-                    <div class="w30 pos-rel mgt128">
-                        <img src="asset/Raïs.png" alt="" class="w30 img-rais">
-                        <img src="asset/Card-2.png" alt="" class="w100">
-                    </div>
-                    <div class="w30 pos-rel mgt128">
-                        <img src="asset/Jean Rafiki.png" alt="" class="w30 img-sarah-jean">
-                        <img src="asset/Card-3.png" alt="" class="w100">
-                    </div>
-
                 </div>
+        </section>
 
-            </section>
     </main>
 
 
     <!-- FOOTER DE TROUBLE DIGESTIFS ET DE L'ORDRE PUBLIC  -->
-    <footer class="mgt128 bg-footer">
+    <footer class=" bg-footer ">
+
 
         <!-- div primordial -->
-        <div class="flex">
-            <div>
-                <img src="asset/LOGO.png" alt="" class="mgb15">
-                <div class="w50">
+        <div class="flex space-between container1200 flex gap350 align-center ">
+            <div class="w20">
+                <img src="asset/LOGOPropre.png" alt="" class="mgb15 w100">
+                <div class="w100 flex space-between">
                     <img src="asset/Store download button-android.png" alt="" class="w40">
                     <img src="asset/Store download button.png" alt="" class="w40">
                 </div>
             </div>
 
-            <div class="flex">
+            <div class="flex ">
 
                 <div class="w60 flex just-center gap20">
 
@@ -350,19 +383,19 @@
 
                     <div class="column">
                         <h3 class="clr-bleu mgb30">Application</h3>
-                        <a href="#">Informations</a>
-                        <a href="#">Fonctionnalités</a>
-                        <a href="#">Partenaires</a>
-                        <a href="#">Avis</a>
-                        <a href="#">L’équipe</a>
+                        <p class="lien">Informations</p>
+                        <p class="lien">Fonctionnalités</p>
+                        <p class="lien">Partenaires</p>
+                        <p class="lien">Avis</p>
+                        <p class="lien">L’équipe</p>
                     </div>
 
                 </div>
 
                 <div class="ml-30">
                     <h3 class="clr-bleu mgb30">Liens Utiles</h3>
-                    <p>Nous contacter</p>
-                    <p>Mentions légales</p>
+                    <p class="lien">Nous contacter</p>
+                    <p class="lien">Mentions légales</p>
                 </div>
             </div>
         </div>

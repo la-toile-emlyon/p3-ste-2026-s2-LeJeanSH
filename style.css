@@ -58,14 +58,13 @@ p{
 
 .font-size-calice{
     font-size: 25px;
-    color: rgb( 120 19 68);
+    color: #407BFF;
 }
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 /*------------------------- 
@@ -146,7 +145,7 @@ header nav a:hover::after{
 
 .bg-beige{
     background-color: #FCF8F5;
-    padding: 50px;
+    padding: 0 50px 50px 50px;
 }
 .bleu-etiquette{color:#3B5899}
 /*------------------------------
@@ -227,7 +226,9 @@ header nav a:hover::after{
 .mgt15{
     margin-top: 15px;
 }
-
+.mgt10{
+    margin-top: 10px;
+}
 .mgb128{
 margin-bottom: 128px;
 }
@@ -343,6 +344,9 @@ margin-bottom: 50px;
 .gap16{
     gap: 16px;
 }
+.gap350{
+    gap: 350px;
+}
 .gap650{
     gap: 650px;
 }
@@ -407,12 +411,12 @@ justify-content: space-around;
 -------------------------*/
 .card-tem{
     padding: 30px 30px ;
-    border: solid 2px #E29CC9;
+    border: solid 2px #407BFF;
     border-radius: 20px;
     background: linear-gradient(
         45deg,
-        #E29CC9 0%,
-        #FCF5FA 60%,
+        #b1c9fd 0%,
+        rgb(249, 249, 250) 55%,
         #FFFFFF 80%
     );
 
@@ -421,8 +425,8 @@ justify-content: space-around;
 
 
 .icon-logo{
-    font-size: 35px;
-    color: rgb( 120 19 68);
+    font-size: 20px;
+    color: rgb(240, 196, 35);
 }
 
 .pos-rel{
@@ -466,6 +470,10 @@ justify-content: space-around;
 /*-----------------------
         AVIS
 -------------------------*/
+
+.img-avatar{
+    width: 80px;
+}
 .fleche-avant, .fleche-arriere{
     cursor: pointer;
     width: 30px;
@@ -480,7 +488,12 @@ justify-content: space-around;
      transform: rotate(-135deg);
 }
 
-
+.lien{
+    color:black;
+}
+.lien:hover{
+    color:rgb(30, 68, 233);
+}
 
 
 
@@ -523,8 +536,15 @@ justify-content: space-around;
 -------------------------*/
 
 .bg-footer{
-    padding: 100px;
-    background-color:  #FCF8F5;
+    padding: 40px;
+      background-color: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    a,p{
+        color: #000000;
+    }
+    a:hover, p:hover{
+        color: #bed0f8 !important;
+    }
 }
 
 
@@ -546,7 +566,14 @@ justify-content: space-around;
 
 
 
-
+.partener-bg{
+        background: linear-gradient(
+        45deg,
+        #D4E1FF 0%,
+        #FCF5FA 60%,
+        #FFFFFF 80%
+    )
+}
 
 
 
