@@ -8,6 +8,11 @@
 /*------------------------- 
             typo 
 ---------------------------*/
+.karla{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -55,6 +60,14 @@ p,li{
     padding: 10px;
     background-color: rgb(64, 123, 255) ;
     border-radius: 8px;
+    border: #407BFF 2px solid;
+}
+.btn-Doc:hover{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: #407BFF 2px solid;
+    color: #407BFF;
 }
 
 .change-a{
@@ -79,6 +92,17 @@ header nav a::after{
 
 header nav a:hover::after{
     width: 100%;
+}
+.main-header {
+  max-height: 100px; /* sa hauteur normale */
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.25s ease;
+}
+
+.main-header.hidden {
+  max-height: 0;
+  padding: 0;
+  opacity: 0;
 }
 /* ----------------------------
             COLORS
@@ -353,6 +377,10 @@ margin-bottom: 50px;
 }
 .gap40{
     gap: 40px;
+    
+}
+.gap80 {
+    gap: 80px;
 }
 .gap100{
     gap: 100px;
@@ -445,6 +473,7 @@ justify-content: space-around;
     padding: 30px 15px ;
     border: solid 2px #407BFF;
     border-radius: 20px;
+    
 }
 main div nav a :hover{
     color:#407BFF;
@@ -502,7 +531,3 @@ main div nav a :hover{
 .cover{
     object-fit: cover;
 }
-
-
-
-

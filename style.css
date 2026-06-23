@@ -3,6 +3,14 @@
 /*------------------------- 
             typo 
 ---------------------------*/
+.karla{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins{
+ font-family: "Poppins", sans-serif;
+}
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -74,7 +82,7 @@ p{
     padding: 10px;
     background-color: rgb(64, 123, 255) ;
     border-radius: 8px;
-        border: #407BFF 2px solid;
+    border: #407BFF 2px solid;
 }
 .btn-Doc:hover{
     padding: 10px;
@@ -147,6 +155,10 @@ header nav a:hover::after{
     background-color: #FCF8F5;
     padding: 0 50px 50px 50px;
 }
+.bg-beige-avis{
+    background-color: #FCF8F5;
+    padding: 0 50px 200px 50px;
+}
 .bleu-etiquette{color:#3B5899}
 /*------------------------------
             TEXTE
@@ -198,8 +210,6 @@ header nav a:hover::after{
     margin-right: auto;
 }
 
-
-
 /*----------------------------------
         MARGIN ET PADDING
 ------------------------------------*/
@@ -210,6 +220,13 @@ header nav a:hover::after{
 
 .mgt100{
     margin-top: 100px;
+}
+
+.mgt89{
+    margin-top: 89px;
+}
+.mgt64{
+    margin-top: 64px;
 }
 
 .mgt50{
@@ -332,6 +349,9 @@ margin-bottom: 50px;
 .gap40{
     gap: 40px;
 }
+.gap80 {
+    gap: 80px;
+}
 .gap100{
     gap: 100px;
 }
@@ -405,7 +425,28 @@ justify-content: space-around;
     top: 0;
     z-index: 1000;
 }
+.fixed-nav-sec{
+    padding: 10px 10px;
+    background-color: #c4d7ff;
+    /*box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);*/
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    height:10%;
 
+}
+.main-header {
+  max-height: 100px; /* sa hauteur normale */
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.25s ease;
+}
+
+.main-header.hidden {
+  max-height: 0;
+  padding: 0;
+  opacity: 0;
+}
 /*-----------------------
     card temoignages 
 -------------------------*/
@@ -467,6 +508,15 @@ justify-content: space-around;
     transform: translateX(-50%);
     width: 35%;
 }
+
+.bg-num{
+    background: linear-gradient(
+        45deg,
+        #b1c9fd 25%,
+        rgb(249, 249, 250) 70%,
+        #FFFFFF 77%
+    );
+}
 /*-----------------------
         AVIS
 -------------------------*/
@@ -495,6 +545,17 @@ justify-content: space-around;
     color:rgb(30, 68, 233);
 }
 
+.btn-rdv{
+    background-color: #407BFF;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: white;
+}
+.btn-rdv:hover{
+    background-color: #FCF5FA;
+    border: solid 2px #407BFF;
+    color: #407BFF;
+}
 
 
 /*-----------------------
@@ -554,7 +615,6 @@ justify-content: space-around;
 
 
 .nav-secondaire {
-    background-color: #f4f4f4;
     padding: 10px;
 }
 
@@ -575,7 +635,14 @@ justify-content: space-around;
     )
 }
 
+/*-----------------------
+        Scroll et cover 
+-------------------------*/
 
+.scroll-top{
+    scroll-margin-top: 200px;
+}
 
-
-
+.cover{
+    object-fit: cover;
+}

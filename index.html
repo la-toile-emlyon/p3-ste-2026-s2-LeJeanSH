@@ -23,7 +23,7 @@
 
 <body>
     <!-- HEADER AVEC UN H COMME TONTON HAMID -->
-    <header class="fixed-header">
+    <header class="fixed-header main-header">
 
         <div class="container1200 flex gap350 align-center  ">
 
@@ -42,16 +42,17 @@
     </header>
     <!-- MANY MAIN ! -->
     <main>
-        <nav class="nav-secondaire mgt100 sticky txt-none">
+        <nav class="nav-secondaire mgt89 fixed-nav-sec">
             <ul>
-                <li><a href="">Mon profil</a></li>
-                <li><a href="">Paramètres</a></li>
-                <li><a href="">Aide</a></li>
+                <li><a href="#histoire" class="txt-none clr-dark txt-none poppins-medium">Le Saviez-Vous</a></li>
+                <li><a href="#fonctionnalites" class="txt-none clr-dark txt-none poppins-medium">Fonctionnalités</a></li>
+                <li><a href="#partenaires" class="txt-none clr-dark txt-none poppins-medium">Partenaires</a></li>
+                <li><a href="#avis" class="txt-none clr-dark txt-none poppins-medium">Avis</a></li>
             </ul>
         </nav>
 
         <!-- SECTION HERO AVEC UNE CAPE -->
-        <section class="bg-beige">
+        <section id="hero" class="bg-beige scroll-top">
 
             <!-- Div mère -->
 
@@ -60,7 +61,8 @@
 
                 <div class="w30 mgt128">
                     <h1 class="poppins-medium">Un soutien quand vous <span class="clr-bleu">en avez besoin </span></h1>
-                    <p class="mgt30 poppins-medium">Tremplin accompagne les personnes en situation de précarité en leur
+                    <p class="mgt30 poppins-medium">Tremplin <span class="clr-bleu bold">accompagne</span> les personnes
+                        en situation de précarité en leur
                         permettant de trouver rapidement les aides, services et ressources dont elles ont besoin pour
                         avancer sereinement au quotidien.</p>
 
@@ -80,24 +82,24 @@
         </section>
 
         <!-- SECTION HISTOIRE & GEOGRAPHIE -->
-        <section class="container1200 mgt30">
+        <section id="histoire" class="container1200 mgt128 scroll-top">
             <div>
                 <h2 class="txt-center mgb50 poppins-medium">Le saviez <span class="clr-bleu">vous ?</span></h2>
             </div>
 
-            <div class="flex space-between mgt100">
+            <div class="flex space-between mgt64">
                 <!-- 9,8 + paragraphe -->
-                <div class="pad-40 br-10 border-solid w30">
+                <div class="pad-40 br-10 border-solid w30 bg-num">
                     <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">9,8 Million +</h3>
                     <p class="poppins-medium">Le nombre de personnes en <br>situation de précarité</p>
                 </div>
                 <!-- 15% + paragraphe -->
-                <div class="pad-40 br-10 border-solid w30">
+                <div class="pad-40 br-10 border-solid w30 bg-num">
                     <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">15%</h3>
                     <p class="poppins-medium">Le pourcentage de personnes <br>en situation de précarité</p>
                 </div>
                 <!-- 1/7 + paragraphe -->
-                <div class="pad-40 br-10 border-solid w30 poppins-medium">
+                <div class="pad-40 br-10 border-solid w30 poppins-medium bg-num">
                     <h3 class="mgb10 h3-card-numb clr-bleu poppins-medium">1/7</h3>
                     <p class="poppins-medium">Le taux de personnes en <br>situation de précarité</p>
 
@@ -111,7 +113,7 @@
 
         <!-- SECTION FONCTIONNALITES -->
 
-        <section class="mgt128 bg-beige" id="sectionfonctionnalites">
+        <section class="mgt128 bg-beige-avis scroll-top" id="fonctionnalites">
             <!--Section Aides-->
             <div class="container1200">
                 <h2 class="txt-center mgb50 pad-40">Nos <span class="clr-bleu">Fonctionnalités</span></h2>
@@ -154,7 +156,7 @@
                 <!--Section Activites-->
 
                 <!-- div 2 -->
-                <div class="flex space-between align-center" id="sectionactivites">
+                <div class="flex space-between align-center scroll-top" id="activites">
 
                     <div class="w40">
 
@@ -203,7 +205,7 @@
         <h2 class="txt-center mgb50 mgt50">Nos <span class="clr-bleu">partenaires</span></h2>
 
         <!-- SECTION PARTENERS COMME LE FOURGONS -->
-        <section class="marquee">
+        <section id="partenaires" class="marquee scroll-top mgt64">
             <div class="partener-bg flex pad-50">
                 <div class="marquee-track">
                     <img src="asset/franprix.png" alt="blabla" />
@@ -216,13 +218,13 @@
                     <img src="asset/CroixRouge.png" alt="blabla" />
                     <img src="asset/Emmaus.png" alt="blabla" />
                     <img src="asset/RestoCoeur.png" alt="blabla" />
-                    <img src="asset/EtatFrançais.png" alt="blabla" />
+                    <img src="asset/EtatFrancais.png" alt="blabla" />
                 </div>
             </div>
         </section>
 
         <!-- SECTION AVIS AU RATUS  -->
-        <section class="bg-beige ">
+        <section id="avis" class="bg-beige-avis scroll-top mgt128">
 
             <div class="container1200">
 
@@ -232,7 +234,12 @@
                     <!-- div mundo -->
                     <div class="w30">
                         <h3 class="mgb15">Rejoignez les utilisateurs</h3>
-                        <img src="asset/nombre de utilisateurs.png" alt="" class="w100">
+                        <img src="asset/nombre de utilisateurs.png" alt="" class="w100 mgb30">
+                        <p class="txt-none poppins-medium">Téléchargez notre app</p>
+                        <div class="w100 flex gap20 mgt10">
+                            <img src="asset/Store download button-android.png" alt="" class="w40">
+                            <img src="asset/Store download button.png" alt="" class="w40">
+                        </div>                        
                     </div>
 
 
@@ -298,14 +305,11 @@
 
                                         </div>
 
-                                        <p class="mgt10">“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
-                                            utiliser, bien organisée et propose de nombreuses aides et activités
-                                            variées. En
-                                            tant que personne en situation de difficulté, elle m'apporte un réel soutien
-                                            au
-                                            quotidien. Je la recommande fortement à toutes les personnes qui recherchent
-                                            un
-                                            accompagnement simple et efficace.  "</p>
+                                        <p class="mgt10">“ Grâce à cette application, j’ai trouvé rapidement des aides
+                                            et des activités adaptées à mes besoins. La navigation est simple, les
+                                            informations sont fiables et les ressources proposées sont vraiment utiles.
+                                            C’est une solution pratique qui facilite l’accès à l’accompagnement et aux
+                                            opportunités locales. "</p>
 
                                     </div>
                                 </div>
@@ -330,14 +334,11 @@
 
                                         </div>
 
-                                        <p class="mgt10">“ J'utilise cette application et j'en suis très satisfait. Elle est facile à
-                                            utiliser, bien organisée et propose de nombreuses aides et activités
-                                            variées. En
-                                            tant que personne en situation de difficulté, elle m'apporte un réel soutien
-                                            au
-                                            quotidien. Je la recommande fortement à toutes les personnes qui recherchent
-                                            un
-                                            accompagnement simple et efficace. "</p>
+                                        <p class="mgt10">“ Cette application est devenue très utile dans mon quotidien.
+                                            Elle permet de repérer facilement des aides, des événements et des activités
+                                            accessibles à petit budget. Les informations sont bien présentées et faciles
+                                            à comprendre. Je la recommande aux personnes qui recherchent du soutien et
+                                            des solutions concrètes. "</p>
 
                                     </div>
                                 </div>
@@ -362,45 +363,56 @@
 
 
     <!-- FOOTER DE TROUBLE DIGESTIFS ET DE L'ORDRE PUBLIC  -->
-    <footer class=" bg-footer ">
+   <footer class="bg-footer">
 
+    <div class="flex space-between container1200 align-center gap80">
 
-        <!-- div primordial -->
-        <div class="flex space-between container1200 flex gap350 align-center ">
-            <div class="w20">
-                <img src="asset/LOGOPropre.png" alt="" class="mgb15 w100">
-                <div class="w100 flex space-between">
-                    <img src="asset/Store download button-android.png" alt="" class="w40">
-                    <img src="asset/Store download button.png" alt="" class="w40">
-                </div>
-            </div>
-
-            <div class="flex ">
-
-                <div class="w60 flex just-center gap20">
-
-                    <img src="asset/freepik--Character--inject-2.png" alt="" class="w20">
-
-                    <div class="column">
-                        <h3 class="clr-bleu mgb30">Application</h3>
-                        <p class="lien">Informations</p>
-                        <p class="lien">Fonctionnalités</p>
-                        <p class="lien">Partenaires</p>
-                        <p class="lien">Avis</p>
-                        <p class="lien">L’équipe</p>
-                    </div>
-
-                </div>
-
-                <div class="ml-30">
-                    <h3 class="clr-bleu mgb30">Liens Utiles</h3>
-                    <p class="lien">Nous contacter</p>
-                    <p class="lien">Mentions légales</p>
-                </div>
+        <!-- LOGO -->
+        <div class="w20">
+            <img src="asset/LOGOPropre.png" alt="" class="mgb15 w100">
+            <div class="w100 flex space-between">
+                <img src="asset/Store download button-android.png" alt="" class="w40">
+                <img src="asset/Store download button.png" alt="" class="w40">
             </div>
         </div>
-    </footer>
 
+        <!-- BLOCS LIENS -->
+        <div class="flex align-start flex-nowrap">
+
+            <!-- APPLICATION -->
+            <div class="flex gap20 align-start">
+
+                <img src="asset/freepik--Character--inject-2.png" alt="" class="w20">
+
+                <div class="column">
+                    <h3 class="clr-bleu mgb30">Application</h3>
+                    <ul class="suppuce">
+                        <li><a href="#histoire" class="lien txt-none karla">Informations</a></li>
+                        <li><a href="#fonctionnalites" class="lien txt-none karla">Fonctionnalités</a></li>
+                        <li><a href="#partenaires" class="lien txt-none karla">Partenaires</a></li>
+                        <li><a href="#avis" class="lien txt-none karla">Avis</a></li>
+                        <li><a href="documentation.html" class="lien txt-none karla">Documentation</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- LIENS UTILES -->
+            <div class="column">
+                <h3 class="clr-bleu mgb30">Liens Utiles</h3>
+                <ul class="suppuce">
+                    <li><a href="" class="lien txt-none karla">Mentions légales</a></li>
+                    <li><a href="" class="lien txt-none karla">Politique de confidentialité</a></li>
+                    <li><a href="" class="lien txt-none karla">Cookies</a></li>
+                    <li><a href="" class="lien txt-none karla">CGV</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
 </body>
 
 </html>
